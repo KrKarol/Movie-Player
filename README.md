@@ -2,7 +2,7 @@
 
 Simple Video Player created as part of the exercises.
 
-Function: 
+Functions: 
 - play/stop video;
 - foward/backward 25s;
 - volume regulation;
