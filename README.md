@@ -11,4 +11,4 @@ Functions:
 - fullScreen;
 
 live: 
-https://krkarol.github.io/Movie-Player/
+https://krkarol.github.io/videoPlayer/
