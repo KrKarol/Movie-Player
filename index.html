@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Movie Player</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</head>
+<body>
+	
+	<section class="player">
+		<video src="https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164" width="760px" autoplay></video>
+		<div class="player_tools">
+	    	<div class="progress">
+	    		<div class="progress_filled"></div>
+	    	</div>
+		    <div class="controls_part">
+			    <button class="material-icons" data-skip="-25" > fast_rewind </button>
+			    <button class="material-icons play" > pause </button>
+			    <button class="material-icons" data-skip="25"> fast_forward </button>
+		    	<div class="volume">
+		    		<i class="material-icons volume_icon">volume_mute</i>
+		    		<input type="range" name="vol" min="0" maxlength="1" value="1">
+		    	</div>
+
+	    	</div>
+			<div class="controls_part2">
+				<span class="time"> </span> 
+				<button class="material-icons fullScreen"> fullscreen</button>
+			</div>
+     </div>
+	</section>
+	<script src="js/script.js"></script>
+</body>
+</html>
