@@ -8,7 +8,7 @@ Functions:
 - foward/backward 25s;
 - volume regulation;
 - muted;
-- fullScreen;
+- Fullscreen mode;
 
 live: 
 https://krkarol.github.io/videoPlayer/
